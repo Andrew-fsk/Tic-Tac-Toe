@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00bf8f;
+  background: -webkit-linear-gradient(to right, #001510, #00bf8f);
+  background: linear-gradient(to right, #001510, #00bf8f);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+td {
+  border: 4px solid white;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 5rem;
+  color: white;
+}
+
+.winner {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  font-family: Arial;
+}
+
+button {
+  width: 170px;
+  height: 50px;
+  transition: all 0.3s ease;
+  background-color: inherit;
+  outline: inherit;
+  color: white;
+  font-size: 1.5em;
+  margin: auto;
+  border: 2px soliid white !important;
+  border-radius: 20px;
+  margin-top: 20px;
+}
